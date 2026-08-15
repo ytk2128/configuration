@@ -6,3 +6,4 @@ mkdir -p ~/Library/KeyBindings && echo '{
 
 defaults write -g ApplePressAndHoldEnabled -bool false
 defaults write -g NSShowAppCentricOpenPanelInsteadOfUntitledFile -bool false
+defaults write kCFPreferencesAnyApplication TSMLanguageIndicatorEnabled 0
